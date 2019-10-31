@@ -1,12 +1,5 @@
 <?php
 
-/*
-function sumStrings(...$args)
-{
-    return bcadd(...$args);
-}*/
-
-
 function sumStrings(string $firstOperand, string $secondOperand) 
 {
     $firstOperandLength = strlen($firstOperand);
